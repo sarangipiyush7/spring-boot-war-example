@@ -46,7 +46,7 @@ if cp -rf target/hello-world-0.0.1-SNAPSHOT.war /var/lib/tomcat9/webapps/${APP_C
 then
     echo "application Deployed successfully. you can access it on http://{IPADDRESS}/${APP_CONTEXT}"
 else
-    print_exit 1 "not able to Deploy the application."
+    print_exit 1 "not able to"
 fi
 
 # Clean Up code.
